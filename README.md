@@ -2,10 +2,11 @@
 
 ## Linear Regression to Predict MPG
 
-![Regression Summary](https://github.com/kroman3105/MechaCar_Statistical_Analysis/blob/main/Images/Regression%20Summary.PNG)
-
 According to our linear regression summary, Vehicle Length and Ground Clearance provided a non-random amount of variance to the MPG values in our dataset.
-The slope of the model should not be considered zero, which would indicate no linear relationship between MPG and the coefficents provided in our dataset.   
+The slope of the model should not be considered zero, which would indicate no linear relationship between MPG and the coefficents provided in our dataset. 
+
+![Regression Summary](https://github.com/kroman3105/MechaCar_Statistical_Analysis/blob/main/Images/Regression%20Summary.PNG)
+  
 As the summary indicates, with an R-squared of 0.71 and a p-value well under the 0.05% significance, it appears we can reject our null hypothesis and our linear
 model is not zero.  Given the 0.71 R-squared figure, it appears this model does pick the correct MPG at a greater rate then random chance, but it appears there 
 may be more variables that need to be included in order to improve the effectiveness of the model.
